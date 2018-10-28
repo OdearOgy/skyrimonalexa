@@ -6,7 +6,8 @@
 
 body {
   font-family: Aclonica;
-  text-shadow: 2px 0 2px rgba(0, 0, 0, 1);
+  /* text-shadow: 2px 0 2px rgba(0, 0, 0, 1); */
+  text-shadow: 4px 0 10px rgba(63, 112, 111, 1), 2px 0 10px rgba(0, 0, 0, 1);
   color: #ffffff;
 
   display: flex;
@@ -75,35 +76,49 @@ a {
 
 .head {
   width: 80vw;
-  height: 20vh;
+  height: 100vh;
   margin: auto;
-
-  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .head h1 {
-  text-shadow: 2px 0 2px rgba(0, 0, 0, 1);
+  text-shadow: 4px 0 10px rgba(63, 112, 111, 1), 2px 0 10px rgba(0, 0, 0, 1);
+  width: 70%;
+  font-size: 5em;
+  text-align: center;
 }
 
 /* section with video */
 #about {
   width: 80vw;
-  height: 20vh;
+  height: 100vh;
   margin: 20% auto;
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
 
 
 .quote-container {
-  width: 65vw;
+  width: 55vw;
   font-size: 2rem;
+  margin-right: 10px;
+
+
+
 }
 
+
+.q-paragraph {
+  text-align: justify;
+  letter-spacing: 6px;
+}
+
+
 #video {
+  margin-left: 10px;
   width: 40vw;
   height: 45vh;
 }
@@ -119,7 +134,7 @@ a {
 
 #buy-div {
   width: 80vw;
-  height: 20vh;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
