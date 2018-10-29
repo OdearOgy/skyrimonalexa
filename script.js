@@ -6,8 +6,7 @@ navBtn.addEventListener('click', event => {
         navBar.className = 'nav-display';
       }
       else {
-        event.target.className = 'fas fa-bars'
+        event.target.className = 'fas fa-bars';
         navBar.className += ' d--none';
-
       }
 });
