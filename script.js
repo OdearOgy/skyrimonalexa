@@ -8,6 +8,5 @@ navBtn.addEventListener('click', event => {
       else {
         event.target.className = 'fas fa-bars'
         navBar.className += ' d--none';
-
       }
 });
