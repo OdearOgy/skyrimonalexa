@@ -6,17 +6,20 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aclonica" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   </head>
   <body>
     <header id="header">
       <a href="#head"><img src="./img/logo.png" alt="" id="header-img"></a>
-      <nav id="nav-bar">
-        <ul class="list">
-          <li class="nav-link"><a href="#about">About</a></li>
-          <li class="nav-link"><a href="#buy-div">Get it Now!</a></li>
-          <li class="nav-link"><a href="#faq-section">FAQ</a></li>
-        </ul>
+      <nav id="nav-bar" class="nav-display d--none">
+        <a href="#head" class="nav-link" >Home</a>
+        <a href="#about" class="nav-link" >About</a>
+        <a href="#buy-div" class="nav-link" >Get it Now!</a>
       </nav>
+      <!-- <i class="hamburger" id="hamburger"><img src="./img/hamburger.svg" alt="nav-bar"></i> -->
+      <i class="fas fa-bars" id="hamburger"></i>
+      <!-- <i class="fas fa-times" id="times"></i> -->
+
     </header>
 
               <div class="head" id="head">
@@ -25,7 +28,7 @@
                   <div id="about">
                     <div class="quote-container">
                             <blockquote>
-                                <p q-paragraph>"Bethesda Game Studios is proud to present Skyrim... for Alexa. Yes, that's right, the version of Skyrim you never saw coming has finally arrived on the platform you never asked for."</p>
+                                <p class="q-paragraph">"Bethesda Game Studios is proud to present Skyrim... for Alexa. Yes, that's right, the version of Skyrim you never saw coming has finally arrived on the platform you never asked for."</p>
                                 <footer class="q-footer"> ― <a href="https://mobile.twitter.com/BethesdaStudios" target="_blank">Bethesda Softworks</a></footer>
                             </blockquote>
                       </div>
@@ -43,7 +46,12 @@
                     </form>
               </div>
 
-
       <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+
+      <!-- don't touch this bitch -->
+      <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
