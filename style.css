@@ -27,7 +27,7 @@ a {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 12vh;
+  height: 80px;
   position: fixed;
   top: 0;
   left: 0;
@@ -103,7 +103,6 @@ a {
 .q-footer {
   font-size: 1.5em;
 }
-
 
 #video {
   margin-left: 10px;
@@ -186,9 +185,17 @@ a {
 
 
 @media screen and (max-width: 1024px) {
+    body {
+      background-size: 200% 120vh;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+
   /* responsive navbar styling  */
     #header {
       justify-content: space-around;
+      background-size: 200% 120vh;
     }
 
     #hamburger {
