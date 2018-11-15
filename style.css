@@ -149,6 +149,9 @@ a {
   margin: 20px;
   font-size: 2em;
   border-radius: 10px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .3);
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, .3);
 }
 
 #email::placeholder {
@@ -183,7 +186,7 @@ a {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
     body {
       background-size: 200% 120%;
       background-position: center;
@@ -303,7 +306,7 @@ a {
 }
 
 
-@media screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
     body {
       background-size: 200% 100%;
     }
@@ -317,7 +320,7 @@ a {
 }
 
 
-@media screen and (min-width: 1440px) {
+@media all and (min-width: 1440px) {
 
     .nav-link {
       font-size: 26px;
